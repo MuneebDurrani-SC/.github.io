@@ -1,4 +1,4 @@
-import './index.css';            // <<— IMPORTANT: keep this as the first import
+import './index.css';            // <-- keep as first import
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Dashboard from './Dashboard.jsx';
