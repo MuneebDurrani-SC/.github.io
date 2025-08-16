@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Dashboard from './Dashboard.jsx';
+import './index.css';
 
 // Optional: preload a default logo from /public if empty in localStorage
 const defaultLogo = '/logo.png';
