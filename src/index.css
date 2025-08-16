@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme variables (match your dashboard) */
+:root{
+  --brand-bg:#1B2622;
+  --brand-nav:#16201c;
+  --brand-card:#1f2a26;
+  --brand-hover:#23332e;
+  --brand-text:#F3F7E1;
+  --brand-border:#2a3b35;
+  --brand-chip:#20312b;
+  --brand-input:#1c2723;
+  --brand-accent:#D6ED51;
+}
+[data-theme="light"]{
+  --brand-bg:#f7f9f5;
+  --brand-nav:#ffffff;
+  --brand-card:#ffffff;
+  --brand-hover:#f1f5ec;
+  --brand-text:#1B2622;
+  --brand-border:#e2eadf;
+  --brand-chip:#eef3ea;
+  --brand-input:#f5f8f3;
+  --brand-accent:#D6ED51;
+}
+
+/* Utility bridges used by the app */
+.bg-brandBg{ background: var(--brand-bg); }
+.bg-brandNav{ background: var(--brand-nav); }
+.bg-brandCard{ background: var(--brand-card); }
+.bg-brandHover{ background: var(--brand-hover); }
+.text-brandText{ color: var(--brand-text); }
+.border-brandBorder{ border-color: var(--brand-border); }
+.bg-brandChip{ background: var(--brand-chip); }
+.bg-brandInput{ background: var(--brand-input); color: var(--brand-text); }
+.bg-brandAccent{ background: var(--brand-accent); }
+.shadow-card{ box-shadow: 0 10px 28px rgba(0,0,0,0.35); }
+
+/* Base page tweaks */
+html,body,#root{height:100%}
+body{background:var(--brand-bg); color:var(--brand-text);}
