@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Theme variables (match your dashboard) */
+/* Theme variables */
 :root{
   --brand-bg:#1B2622;
   --brand-nav:#16201c;
